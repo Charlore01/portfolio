@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- bootstrap cdn link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">My Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Open navigation menu">☰</button>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my work and projects below</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="text-center mb-4">About Me</h2>
+        <p class="lead text-justify">
+            Hi, I’m <strong>Charles Obilana</strong>, a results-driven Frontend Developer passionate about creating engaging, responsive, and high-performance web applications. 
+            My work drives measurable outcomes like boosting user engagement by <strong>50%</strong> or increasing profits by <strong>120%</strong> through optimized design and functionality.
+        </p>
+        <hr class="my-4">
+        <h3 class="text-start mb-3">Key Skills & Achievements</h3>
+        <ul class="list-unstyled ps-3">
+            <li class="mb-2">
+                <i class="bi bi-check-circle text-success"></i> Built applications that enhanced user engagement and improved client profitability.
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-check-circle text-success"></i> Proficient in <strong>Vue.js</strong>, <strong>React</strong>, <strong>JavaScript</strong>, <strong>Tailwind CSS</strong>, <strong>SCSS</strong>, and <strong>Bootstrap</strong>.
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-check-circle text-success"></i> Delivered mobile-friendly designs that increased conversions by <strong>35%</strong>.
+            </li>
+            <li class="mb-2">
+                <i class="bi bi-check-circle text-success"></i> Skilled in deploying fast and secure web projects on platforms like <strong>Vercel</strong>.
+            </li>
+        </ul>
+        <p class="mt-4">
+            I’m passionate about creating impactful digital experiences that align with business goals. 
+            Let’s collaborate to bring your vision to life! <span class="text-primary">🌟</span>
+        </p>
+    </section>
+    
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-icons">
+            <div class="skill-item">
+                <span class="skill-name">HTML5</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+            </div>
+            <div class="skill-item">
+                <span class="skill-name">CSS3</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+            </div>
+            <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            </div>
+            <div class="skill-item">
+                <span class="skill-name">Bootstrap</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" />
+            </div>
+            <div class="skill-item">
+                <span class="skill-name">SCSS</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="SCSS" />
+            </div>
+            <!-- <div class="skill-item">
+                <span class="skill-name">Tailwind</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" />
+            </div> -->
+            <div class="skill-item">
+                <span class="skill-name">Vue.js</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js" />
+            </div>
+            <div class="skill-item">
+                <span class="skill-name">React</span>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project" data-project="1">
+                <img src="./assets/campaign.png" alt="Project 1 Thumbnail" class="project-thumbnail">
+                <h3>Campaign Management System</h3>
+                <p>A robust web application for managing and showcasing campaigns.</p>
+                <button class="btn details-btn">More Details</button>
+                <a href="https://campaign-project-nine.vercel.app" class="btn live-btn" target="_blank">View Live</a>
+            </div>
+            <div class="project" data-project="2">
+                <img src="./assets/crowdfunding.png" alt="Project 2 Thumbnail" class="project-thumbnail">
+                <h3>Crowdfunding Product Page</h3>
+                <p>A pixel-perfect, responsive crowdfunding product page for the 'Mastercraft Bamboo Monitor Riser.</p>
+                <button class="btn details-btn">More Details</button>
+                <a href="https://crowdfunding-nu-rose.vercel.app/" class="btn live-btn" target="_blank">View Live</a>
+            </div>
+            <div class="project" data-project="3">
+                <img src="./assets/e-commerce.png" alt="Project 3 Thumbnail" class="project-thumbnail">
+                <h3>E-commerce Product Page</h3>
+                <p> "An elegant e-commerce product page designed for 'Fall Limited Edition Sneakers</p>
+                <button class="btn details-btn">More Details</button>
+                <a href="https://e-commerce-main-gamma.vercel.app" class="btn live-btn" target="_blank">View Live</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this after your projects section -->
+<div id="project-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2 id="modal-title"></h2>
+        <div id="modal-description"></div>
+    </div>
+</div>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name">
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/Charlore01" target="_blank" class="social-link">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="social-icon">
+            </a>
+            <a href="https://www.linkedin.com/in/charles-obilana-716063339/" target="_blank" class="social-link">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="social-icon">
+            </a>
+            <!-- <a href="https://twitter.com/yourusername" target="_blank" class="social-link">
+                <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="#1DA1F2" d="M23.643 4.937c-.835.37-1.732.62-2.675.733.962-.576 1.7-1.49 2.048-2.578-.9.534-1.897.922-2.958 1.13-.85-.904-2.06-1.47-3.4-1.47-2.572 0-4.658 2.086-4.658 4.66 0 .364.042.718.12 1.06-3.873-.195-7.304-2.05-9.602-4.868-.4.69-.63 1.49-.63 2.342 0 1.616.823 3.043 2.072 3.878-.764-.025-1.482-.234-2.11-.583v.06c0 2.257 1.605 4.14 3.737 4.568-.392.106-.803.162-1.227.162-.3 0-.593-.028-.877-.082.593 1.85 2.313 3.198 4.352 3.234-1.595 1.25-3.604 1.995-5.786 1.995-.376 0-.747-.022-1.112-.065 2.062 1.323 4.51 2.093 7.14 2.093 8.57 0 13.255-7.098 13.255-13.254 0-.2-.005-.402-.014-.602.91-.658 1.7-1.477 2.323-2.41z"></path>
+                </svg>
+            </a> -->
+            <a href="obilanac@gmail.com" class="social-link">
+                <svg class="social-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="#EA4335" d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z"></path>
+                </svg>
+            </a>
+        </div>
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
